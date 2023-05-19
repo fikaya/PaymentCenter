@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PaymentCenter.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PaymentCenter.WebAPI.Controllers.InstitutionSubscriberController.Get(System.Guid)">
+            <summary>
+            Abone Sicil Numarası İle İlgili Kişiyi Arayarak Elde Edebiliriz.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PaymentCenter.WebAPI.Controllers.InstitutionSubscriberController.Create(PaymentCenter.Entities.InstitutionSubscriber)">
+            <summary>
+            Herhangi Bir Kuruma Abone Oluşturabiliriz.Ama Buradan Önce Abone Tablosuna O Kişiyi Eklemeliyiz.
+            </summary>
+            <param name="institutionSubscriberService"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PaymentCenter.WebAPI.Controllers.InvoiceController.Get(System.Guid,System.Int32,System.Int32)">
+            <summary>
+            Abone Sicil Numarası İle İlgili Kişiyi Arayarak Faturasını Ödeyebiliriz. Ardından Faturayı Döndüreceğiz.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PaymentCenter.WebAPI.Controllers.InvoiceController.Get(System.Int32,System.Boolean)">
+            <summary>
+            Eğer True Değer Gönderilirse Ödenmişler,False Değer Gönderilirse Ödenmemişler Döner.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PaymentCenter.WebAPI.Controllers.SubscriberController.Get(System.Guid)">
+            <summary>
+            Abone  Kapatma İşlemlerini Buradan Yapabiliriz.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PaymentCenter.WebAPI.Controllers.SubscriberController.Create(PaymentCenter.Entities.Subscriber)">
+            <summary>
+             Buradan Abone Ekleyebiliriz.
+            </summary>
+            <param name="institutionSubscriberService"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
