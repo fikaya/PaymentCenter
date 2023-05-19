@@ -1,7 +1,5 @@
 Merhaba,
 
-
-
 Sizlere Asp Net Core Api teknolojisi ile geliştirmiş olduğum ödeme merkezi projesini tanıtmak isterim.
 
 Bu proje içerisinde herhangi bir önyüz geliştirmesi yapılmamış olup bir Rest API servisi olarak
